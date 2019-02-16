@@ -343,6 +343,501 @@
 | **Entrega**     | v1             |
 
 
+| **R39**     | **Dar de alta a un cliente**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador dará de alta a un cliente rellenando un formulario con los datos del mismo.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R40**     | **Dar de alta a un entrenador**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador dará de alta a un cliente rellenando un formulario con los datos del mismo.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R41**     | **Dar de baja a un cliente**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá dar de baja a un cliente.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R42**     | **Dar de baja a un entrenador**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá dar de baja a un entrenador.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R43**     | **Modificar datos cliente**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá modificar los datos de un cliente.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R44**     | **Modificar datos entrenador**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá modificar los datos de un entrenador.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R45**     | **Confirmar registro**         |
+| --------------: | :------------------- |
+| **Descripción** | Cuando un nuevo entrenador o cliente es dado de alta, recibe un email para confirmar el registro. Este email el redirigirá a la aplicación para que pueda establecer su contraseña.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R46**     | **Eliminar no confirmados**         |
+| --------------: | :------------------- |
+| **Descripción** | Script de consola que elimina a los usuarios no confirmados en el plazo de un mes.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R47**     | **No modificación de contraseñas ajenas**         |
+| --------------: | :------------------- |
+| **Descripción** | Nadie puede modificar la contraseña de otro usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R48**     | **Establecer horario**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá cambiar el horario de apertura y cierre de gimnasio. Las clases que queden fuera del nuevo horario serán automáticamente canceladas, así como los entrenamientos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v1             |
+
+
+| **R49**     | **Convertir a entrenador**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá convertir a un cliente en entrenador. Cuando esto sucede, el ahora entrenador automáticamente deja de tener un entrenador asignado si lo tuviera, y deja de participar como alumno en aquellas clases futuras en las que estuviese inscrito.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R50**     | **Convertir a cliente**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá convertir a un entrenador en cliente. Cuando esto sucede, el ahora cliente deja de tener alumnos asignados para entrenar, deja de estar asignado como entrenador en clases futuras en las que lo estuviese.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R51**     | **Crear clase**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá crear una clase, indicando al menos el nombre de la clase y su horario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R52**     | **Asignar entrenador a clase**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá asignar un entrenador a una clase para que sea este quien la imparta.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R53**     | **Modificar entrenador de clase**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador puede cambiar al entrenador al que se la ha asignado una clase.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R54**     | **Crear rutina gimnasio**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá crear una rutina de gimnasio, estas rutinas pueden ser consultadas por todas las personas registradas en la aplicación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R55**     | **Modificar rutina gimnasio**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá modificar las rutinas de gimnasio.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R56**     | **Borrar rutina gimnasio**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador podrá borrar las rutinas del gimnasio.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R57**     | **Ver rutinas gimnasio**         |
+| --------------: | :------------------- |
+| **Descripción** | Cualquier usuario de la aplicación puede ver una lista de las rutinas del gimnasio.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R58**     | **Ver rutina gimnasio**         |
+| --------------: | :------------------- |
+| **Descripción** | Cualquier usuario puede ver al detalle una rutina del gimnasio.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R59**     | **Ver perfil cliente desde admin**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador puede ver el perfil de los clientes, con todos sus datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R60**     | **Ver perfil cliente desde entrenador**         |
+| --------------: | :------------------- |
+| **Descripción** | Los entrenadores pueden ver el perfil de los clientes de los que son entrenador, pero no ven el número de teléfono, ni el email.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R61**     | **Ver perfil entrenador**         |
+| --------------: | :------------------- |
+| **Descripción** | El administrador puede ver el perfil de los entrenadores.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R62**     | **Incompatibilidad entrenador-cliente**         |
+| --------------: | :------------------- |
+| **Descripción** | Una persona no puede ser cliente y entrenador a la vez.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R63**     | **Aceptar cliente**         |
+| --------------: | :------------------- |
+| **Descripción** | Un entrenador puede aceptar la solicitud de un cliente para que lo entrene.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R64**     | **Rechazar cliente**         |
+| --------------: | :------------------- |
+| **Descripción** | Un entrenador puede rechazar la solicitud de un cliente para que lo entrene.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R65**     | **Dejar cliente**         |
+| --------------: | :------------------- |
+| **Descripción** | Un entrenador puede dejar de entrenar a un cliente.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R66**     | **Ver todo entrenador**         |
+| --------------: | :------------------- |
+| **Descripción** | Un entrenador puede ver un calendario con las clases y entrenamientos que tiene.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R67**     | **Ver clases entrenador**         |
+| --------------: | :------------------- |
+| **Descripción** | Un entrenador puede ver un listado de las clases que impartirá.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R68**     | **Ver clientes entrenador**         |
+| --------------: | :------------------- |
+| **Descripción** | Un entrenador puede ver un listado de los clientes a los que entrena.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R69**     | **Ver perfil**         |
+| --------------: | :------------------- |
+| **Descripción** | Una persona (cliente o entrenador) puede ver su propio perfil.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R70**     | **Modificar perfil**         |
+| --------------: | :------------------- |
+| **Descripción** | Una persona (cliente o entrenador) puede modificar su propio perfil.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R71**     | **Incompatibilidad de clases entrenador**         |
+| --------------: | :------------------- |
+| **Descripción** | Un entrenador no puede impartir dos clases y/o entrenamientos que coincidan en horario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R72**     | **Incompatibilidad de clases cliente**         |
+| --------------: | :------------------- |
+| **Descripción** | Un cliente no puede asistir a una clase y/o entrenamiento que coincidan en horario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R73**     | **Incompatibilidad de horarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Una clase o entrenamiento no puede empezar ni terminar fuera del horario del gimnasio.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R74**     | **Crear mi rutina**         |
+| --------------: | :------------------- |
+| **Descripción** | Un usuario puede crear una rutina propia mediante un formulario. Indicando nombre de la rutina, ejercicios, series, repeticiones, descansos y peso levantado. Así como añadir una foto a cada ejercicio.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R75**     | **Ver mis rutinas**         |
+| --------------: | :------------------- |
+| **Descripción** | Muestra una lista de las rutinas que ese usuario ha creado.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R76**     | **Ver rutina**         |
+| --------------: | :------------------- |
+| **Descripción** | Muestra una rutina al detalle.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R77**     | **Modificar mi rutina**         |
+| --------------: | :------------------- |
+| **Descripción** | Un usuario puede modificar una rutina que él mismo haya creado.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R78**     | **Ver clases cliente**         |
+| --------------: | :------------------- |
+| **Descripción** | Muestra un calendario con todas las clases.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R79**     | **Filtrar clases**         |
+| --------------: | :------------------- |
+| **Descripción** | El cliente puede filtrar qué clases quiere ver en el calendario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R80**     | **Inscribirse a clase**         |
+| --------------: | :------------------- |
+| **Descripción** | El cliente puede inscribirse a una clase, ocupando una de sus limitadas plazas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R81**     | **Ver entrenadores**         |
+| --------------: | :------------------- |
+| **Descripción** | El cliente puede ver una lista de los entrenadores, algunos datos de su perfil (foto, nombre y especialidad), y horarios disponibles.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R82**     | **Solicitar entrenador**         |
+| --------------: | :------------------- |
+| **Descripción** | Un cliente puede solicitar que un entrenador lo entrene, indicando el horario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R83**     | **Dejar entrenador**         |
+| --------------: | :------------------- |
+| **Descripción** | Un cliente puede decidir que deja de ser entrenado por un entrenador. Si hubiesen clases futuras, se cancelan.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R84**     | **Asignar rutina**         |
+| --------------: | :------------------- |
+| **Descripción** | Un entrenador puede asignar una rutina a un cliente al que entrene.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R85**     | **Progreso ejercicios**         |
+| --------------: | :------------------- |
+| **Descripción** | Un cliente puede ver el progreso que ha hecho en cuanto a pesos se refiere para un determinado ejercicio y determinadas repeticiones.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R86**     | **Progreso peso**         |
+| --------------: | :------------------- |
+| **Descripción** | Un cliente puede ver como ha ido progresando su peso a lo largo de su estancia en el gimnasio.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v2             |
+
+
+| **R87**     | **Clientes**         |
+| --------------: | :------------------- |
+| **Descripción** | Se almacenará: id, nombre, correo, contraseña, fecha de nacimiento, peso, altura, foto, horario, teléfono y monitor asignado.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R88**     | **Entrenadores**         |
+| --------------: | :------------------- |
+| **Descripción** | Se almacenará: id, nombre, correo, contraseña, fecha de nacimiento, peso, altura, foto, horario y especialidad.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R89**     | **Clases**         |
+| --------------: | :------------------- |
+| **Descripción** | Se almacenará: id, nombre, horario, entrenador, plazas libres, plazas total.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R90**     | **Entrenamientos**         |
+| --------------: | :------------------- |
+| **Descripción** | Se almacenará: id del profesor e id del cliente.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R91**     | **Rutinas**         |
+| --------------: | :------------------- |
+| **Descripción** | Se almacenará: id, nombre, ejercicios.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R92**     | **Ejercicios**         |
+| --------------: | :------------------- |
+| **Descripción** | Se almacenará: id, nombre, series, repeticiones, descanso y peso levantado.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R93**     | **Horarios**         |
+| --------------: | :------------------- |
+| **Descripción** | Se almacenará: id, día de la semana, horario de apertura, horario de cierre.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
 
 ## Cuadro resumen
 
@@ -386,3 +881,58 @@
 | (**R36**) Varios navegadores | Mínimo | Técnico | Fácil | v1 |
 | (**R37**) Despliegue en un Host | Mínimo | Técnico | Fácil | v1 |
 | (**R38**) Despliegue en un servidor local | Mínimo | Técnico | Fácil | v1 |
+| (**R39**) Dar de alta a un cliente | Importante | Funcional | Fácil | v1 |
+| (**R40**) Dar de alta a un entrenador | Importante | Funcional | Fácil | v1 |
+| (**R41**) Dar de baja a un cliente | Importante | Funcional | Fácil | v1 |
+| (**R42**) Dar de baja a un entrenador | Importante | Funcional | Fácil | v1 |
+| (**R43**) Modificar datos cliente | Importante | Funcional | Fácil | v1 |
+| (**R44**) Modificar datos entrenador | Importante | Funcional | Fácil | v1 |
+| (**R45**) Confirmar registro | Importante | Funcional | Media | v1 |
+| (**R46**) Eliminar no confirmados | Importante | Funcional | Fácil | v3 |
+| (**R47**) No modificación de contraseñas ajenas | Importante | Funcional | Fácil | v1 |
+| (**R48**) Establecer horario | Importante | Funcional | Difícil | v1 |
+| (**R49**) Convertir a entrenador | Importante | Funcional | Difícil | v3 |
+| (**R50**) Convertir a cliente | Importante | Funcional | Difícil | v3 |
+| (**R51**) Crear clase | Importante | Funcional | Fácil | v1 |
+| (**R52**) Asignar entrenador a clase | Importante | Funcional | Fácil | v2 |
+| (**R53**) Modificar entrenador de clase | Importante | Funcional | Media | v3 |
+| (**R54**) Crear rutina gimnasio | Importante | Funcional | Fácil | v1 |
+| (**R55**) Modificar rutina gimnasio | Importante | Funcional | Fácil | v1 |
+| (**R56**) Borrar rutina gimnasio | Importante | Funcional | Fácil | v1 |
+| (**R57**) Ver rutinas gimnasio | Importante | Funcional | Fácil | v1 |
+| (**R58**) Ver rutina gimnasio | Importante | Funcional | Fácil | v1 |
+| (**R59**) Ver perfil cliente desde admin | Importante | Funcional | Fácil | v2 |
+| (**R60**) Ver perfil cliente desde entrenador | Importante | Funcional | Media | v3 |
+| (**R61**) Ver perfil entrenador | Importante | Funcional | Fácil | v1 |
+| (**R62**) Incompatibilidad entrenador-cliente | Importante | Funcional | Fácil | v1 |
+| (**R63**) Aceptar cliente | Importante | Funcional | Fácil | v2 |
+| (**R64**) Rechazar cliente | Importante | Funcional | Fácil | v2 |
+| (**R65**) Dejar cliente | Importante | Funcional | Fácil | v3 |
+| (**R66**) Ver todo entrenador | Importante | Funcional | Media | v2 |
+| (**R67**) Ver clases entrenador | Importante | Funcional | Fácil | v2 |
+| (**R68**) Ver clientes entrenador | Importante | Funcional | Fácil | v2 |
+| (**R69**) Ver perfil | Importante | Funcional | Fácil | v1 |
+| (**R70**) Modificar perfil | Importante | Funcional | Fácil | v1 |
+| (**R71**) Incompatibilidad de clases entrenador | Importante | Funcional | Media | v3 |
+| (**R72**) Incompatibilidad de clases cliente | Importante | Funcional | Media | v3 |
+| (**R73**) Incompatibilidad de horarios | Importante | Funcional | Media | v2 |
+| (**R74**) Crear mi rutina | Importante | Funcional | Fácil | v2 |
+| (**R75**) Ver mis rutinas | Importante | Funcional | Fácil | v2 |
+| (**R76**) Ver rutina | Importante | Funcional | Fácil | v2 |
+| (**R77**) Modificar mi rutina | Importante | Funcional | Fácil | v2 |
+| (**R78**) Ver clases cliente | Importante | Funcional | Media | v2 |
+| (**R79**) Filtrar clases | Importante | Funcional | Fácil | v3 |
+| (**R80**) Inscribirse a clase | Importante | Funcional | Media | v2 |
+| (**R81**) Ver entrenadores | Importante | Funcional | Fácil | v2 |
+| (**R82**) Solicitar entrenador | Importante | Funcional | Fácil | v2 |
+| (**R83**) Dejar entrenador | Importante | Funcional | Fácil | v3 |
+| (**R84**) Asignar rutina | Importante | Funcional | Fácil | v3 |
+| (**R85**) Progreso ejercicios | Opcional | Funcional | Media | v3 |
+| (**R86**) Progreso peso | Opcional | Funcional | Fácil | v2 |
+| (**R87**) Clientes | Importante | Información | Fácil | v1 |
+| (**R88**) Entrenadores | Importante | Información | Fácil | v1 |
+| (**R89**) Clases | Importante | Información | Fácil | v1 |
+| (**R90**) Entrenamientos | Importante | Información | Fácil | v1 |
+| (**R91**) Rutinas | Importante | Información | Fácil | v1 |
+| (**R92**) Ejercicios | Importante | Información | Fácil | v1 |
+| (**R93**) Horarios | Importante | Información | Fácil | v1 |
