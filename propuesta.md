@@ -83,6 +83,10 @@ Un entrenador no puede impartir dos clases que coincidan en horario. Un entrenad
 
 Las clases son creadas por el administrador, que es quien asigna al entrenador.
 
+Cada cliente pagará una mensualidad en función de la tarifa seleccionada. Las tarifas dependen de factores como la edad y el horario.
+
+La tarifa es elegida por el cliente, pero es aplicada por el administrador, para que un cliente pueda cambiar de tarifa, tiene que hablar con el administrador y es este quien se la cambia.
+
 ## Objetivos generales
 
 * Gestionar los clientes.
@@ -91,7 +95,10 @@ Las clases son creadas por el administrador, que es quien asigna al entrenador.
 * Gestionar los entrenamientos
 * Gestionar las rutinas.
 * Gestionar los horarios.
+* Gestionar las mensualidades.
 
 # Elemento de innovación
 
 Uso de Amazon S3 para el almacenamiento de imágenes.
+
+Pasarela de pago mediante Paypal para pagar las mensualidades.
