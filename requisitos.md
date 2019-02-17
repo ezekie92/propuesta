@@ -757,7 +757,43 @@
 | **Entrega**     | v3             |
 
 
-| **R85**     | **Progreso ejercicios**         |
+| **R85**     | **Cambiar tarifa**         |
+| --------------: | :------------------- |
+| **Descripción** | Un cliente puede solicitar al administrador un cambio de tarifa de cara al mes siguiente.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | V3             |
+
+
+| **R86**     | **Pago**         |
+| --------------: | :------------------- |
+| **Descripción** | El cliente debe realizar un pago mensual cuya cuantía variará en función de la tarifa seleccionada             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | V2             |
+
+
+| **R87**     | **Sin acceso**         |
+| --------------: | :------------------- |
+| **Descripción** | Un cliente que no haya pagado la mensualidad no podrá acceder a la aplicación hasta que la pague.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | V2             |
+
+
+| **R88**     | **Pago automático**         |
+| --------------: | :------------------- |
+| **Descripción** | El pago se realizará de forma automática cuando llegue el día correspondiente.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | V3             |
+
+
+| **R89**     | **Progreso ejercicios**         |
 | --------------: | :------------------- |
 | **Descripción** | Un cliente puede ver el progreso que ha hecho en cuanto a pesos se refiere para un determinado ejercicio y determinadas repeticiones.             |
 | **Prioridad**   | Opcional           |
@@ -766,7 +802,7 @@
 | **Entrega**     | v3             |
 
 
-| **R86**     | **Progreso peso**         |
+| **R90**     | **Progreso peso**         |
 | --------------: | :------------------- |
 | **Descripción** | Un cliente puede ver como ha ido progresando su peso a lo largo de su estancia en el gimnasio.             |
 | **Prioridad**   | Opcional           |
@@ -775,16 +811,16 @@
 | **Entrega**     | v2             |
 
 
-| **R87**     | **Clientes**         |
+| **R91**     | **Clientes**         |
 | --------------: | :------------------- |
-| **Descripción** | Se almacenará: id, nombre, correo, contraseña, fecha de nacimiento, peso, altura, foto, horario, teléfono y monitor asignado.             |
+| **Descripción** | Se almacenará: id, nombre, correo, contraseña, fecha de nacimiento, peso, altura, foto, horario, teléfono, tarifa, fecha de alta y monitor asignado.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Información                |
 | **Complejidad** | Fácil         |
 | **Entrega**     | v1             |
 
 
-| **R88**     | **Entrenadores**         |
+| **R92**     | **Entrenadores**         |
 | --------------: | :------------------- |
 | **Descripción** | Se almacenará: id, nombre, correo, contraseña, fecha de nacimiento, peso, altura, foto, horario y especialidad.             |
 | **Prioridad**   | Importante           |
@@ -793,7 +829,7 @@
 | **Entrega**     | v1             |
 
 
-| **R89**     | **Clases**         |
+| **R93**     | **Clases**         |
 | --------------: | :------------------- |
 | **Descripción** | Se almacenará: id, nombre, horario, entrenador, plazas libres, plazas total.             |
 | **Prioridad**   | Importante           |
@@ -802,7 +838,7 @@
 | **Entrega**     | v1             |
 
 
-| **R90**     | **Entrenamientos**         |
+| **R94**     | **Entrenamientos**         |
 | --------------: | :------------------- |
 | **Descripción** | Se almacenará: id del profesor e id del cliente.             |
 | **Prioridad**   | Importante           |
@@ -811,7 +847,7 @@
 | **Entrega**     | v1             |
 
 
-| **R91**     | **Rutinas**         |
+| **R95**     | **Rutinas**         |
 | --------------: | :------------------- |
 | **Descripción** | Se almacenará: id, nombre, ejercicios.             |
 | **Prioridad**   | Importante           |
@@ -820,7 +856,7 @@
 | **Entrega**     | v1             |
 
 
-| **R92**     | **Ejercicios**         |
+| **R96**     | **Ejercicios**         |
 | --------------: | :------------------- |
 | **Descripción** | Se almacenará: id, nombre, series, repeticiones, descanso y peso levantado.             |
 | **Prioridad**   | Importante           |
@@ -829,9 +865,18 @@
 | **Entrega**     | v1             |
 
 
-| **R93**     | **Horarios**         |
+| **R97**     | **Horarios**         |
 | --------------: | :------------------- |
 | **Descripción** | Se almacenará: id, día de la semana, horario de apertura, horario de cierre.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Información                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R98**     | **Tarifas**         |
+| --------------: | :------------------- |
+| **Descripción** | Se almacenará: id, tarifa y precio.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Información                |
 | **Complejidad** | Fácil         |
@@ -927,12 +972,17 @@
 | (**R82**) Solicitar entrenador | Importante | Funcional | Fácil | v2 |
 | (**R83**) Dejar entrenador | Importante | Funcional | Fácil | v3 |
 | (**R84**) Asignar rutina | Importante | Funcional | Fácil | v3 |
-| (**R85**) Progreso ejercicios | Opcional | Funcional | Media | v3 |
-| (**R86**) Progreso peso | Opcional | Funcional | Fácil | v2 |
-| (**R87**) Clientes | Importante | Información | Fácil | v1 |
-| (**R88**) Entrenadores | Importante | Información | Fácil | v1 |
-| (**R89**) Clases | Importante | Información | Fácil | v1 |
-| (**R90**) Entrenamientos | Importante | Información | Fácil | v1 |
-| (**R91**) Rutinas | Importante | Información | Fácil | v1 |
-| (**R92**) Ejercicios | Importante | Información | Fácil | v1 |
-| (**R93**) Horarios | Importante | Información | Fácil | v1 |
+| (**R85**) Cambiar tarifa | Importante | Funcional | Fácil | V3 |
+| (**R86**) Pago | Importante | Funcional | Difícil | V2 |
+| (**R87**) Sin acceso | Importante | Funcional | Fácil | V2 |
+| (**R88**) Pago automático | Opcional | Funcional | Difícil | V3 |
+| (**R89**) Progreso ejercicios | Opcional | Funcional | Media | v3 |
+| (**R90**) Progreso peso | Opcional | Funcional | Fácil | v2 |
+| (**R91**) Clientes | Importante | Información | Fácil | v1 |
+| (**R92**) Entrenadores | Importante | Información | Fácil | v1 |
+| (**R93**) Clases | Importante | Información | Fácil | v1 |
+| (**R94**) Entrenamientos | Importante | Información | Fácil | v1 |
+| (**R95**) Rutinas | Importante | Información | Fácil | v1 |
+| (**R96**) Ejercicios | Importante | Información | Fácil | v1 |
+| (**R97**) Horarios | Importante | Información | Fácil | v1 |
+| (**R98**) Tarifas | Importante | Información | Fácil | v1 |
